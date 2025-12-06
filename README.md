@@ -47,5 +47,5 @@ Script to evaluate the model
     --lr 1e-4 \
     --no-distributed \
     --epochs 30 \
-    --evaluate --checkpoint {path_to_downloaded_checkpoint} \
+    --evaluate --checkpoint './output/checkpoint_30.pth' \
     --zs_dataset imagenet --zs_datafolder ./datasets/imagenet/val
