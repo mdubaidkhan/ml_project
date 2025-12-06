@@ -11,7 +11,6 @@ script for downloading and using the model(github): ----------------------------
 !gdown 142tMsnclHTTPpnTXHSeNgTUlBk4She6o    # ms_coco_val.tar.gz
 !gdown 1NXhfhwFy-nhdABACkodgYqm9pomDKE39    # val.tar
 
-# Download your model checkpoint from Drive
 !gdown --fuzzy https://drive.google.com/file/d/11PyysDUMSBqBLKHN9akKZ2du_OHR-XZn/view?usp=sharing \
     -O output/checkpoint_30.pth
 
